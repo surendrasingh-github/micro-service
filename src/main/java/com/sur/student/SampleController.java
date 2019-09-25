@@ -20,7 +20,8 @@ public class SampleController {
     String homeAddress() {
         return "Avenue Henry Dunant, Evere, Brussels!";
     }
-
+	
+	//Main method
     public static void main(String[] args) throws Exception {
         SpringApplication.run(SampleController.class, args);
     }
