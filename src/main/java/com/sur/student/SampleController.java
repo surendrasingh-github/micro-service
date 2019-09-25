@@ -21,7 +21,7 @@ public class SampleController {
         return "Avenue Henry Dunant, Evere, Brussels!";
     }
 	
-	//Main method
+	//Main method - Start point
     public static void main(String[] args) throws Exception {
         SpringApplication.run(SampleController.class, args);
     }
